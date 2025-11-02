@@ -23,12 +23,6 @@ app.get("/test", (_req: Request, res: Response, _next: NextFunction) => {
   });
 });
 
-app.all("/*", (req: Request, _res: Response, next: NextFunction) => {
-  const err = new Error(`Route ${req.originalUrl} not found`) as any;
-  err.statusCode = 404;
-  next(err);
-});
-
 app.use(ErrorMiddleware);
 
 export { app };

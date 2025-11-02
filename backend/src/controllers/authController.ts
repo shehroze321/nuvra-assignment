@@ -16,6 +16,6 @@ export class AuthController {
   });
   public loginUser = CatchAsyncError(async (req: Request, res: Response) => {
     const result = await authService.loginUser(req.body as loginSchemaType);
-    return res.status(201).json({ status: "success", data: result });
+    return res.status(200).json({ status: "success", data: result });
   });
 }

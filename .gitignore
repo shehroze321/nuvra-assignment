@@ -8,4 +8,5 @@ frontend/build/
 backend/dist/
 backend/prisma/dev.db
 backend/prisma/dev.db-journal
+backend/prisma/migrations/
 .history/
