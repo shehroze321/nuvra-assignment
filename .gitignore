@@ -6,4 +6,6 @@ frontend/package-lock.json
 backend/package-lock.json
 frontend/build/
 backend/dist/
-.history
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+.history/
