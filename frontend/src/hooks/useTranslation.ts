@@ -11,7 +11,6 @@ export function useTranslation() {
 
   useEffect(() => {
     const lang = getSavedLanguage();
-    // avoid sync state updates (hydration safety)
     Promise.resolve().then(() => {
       setLanguage(lang);
       setT(allTranslations[lang] || allTranslations.en);

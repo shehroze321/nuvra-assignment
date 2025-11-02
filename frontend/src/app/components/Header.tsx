@@ -18,7 +18,10 @@ export default function Header() {
 
       <div className="flex gap-2">
         <button
-          onClick={() => setLang("en")}
+          onClick={() => {
+            setLang("en");
+            window.location.reload();
+          }}
           className={`px-3 py-1 rounded ${
             lang === "en"
               ? "bg-blue-500 text-white"
@@ -28,7 +31,10 @@ export default function Header() {
           EN
         </button>
         <button
-          onClick={() => setLang("ro")}
+          onClick={() => {
+            setLang("ro");
+            window.location.reload();
+          }}
           className={`px-3 py-1 rounded ${
             lang === "ro"
               ? "bg-blue-500 text-white"

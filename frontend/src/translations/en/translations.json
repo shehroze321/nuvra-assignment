@@ -1,4 +1,8 @@
 {
+  "landing": {
+    "title": "Welcome to Nurva",
+    "description": "This is the landing page of Nurva application."
+  },
   "home": {
     "title": "Welcome to Nurva home page",
     "description": "This is the home page of Nurva application."
