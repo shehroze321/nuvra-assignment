@@ -1,0 +1,10 @@
+{
+  "home": {
+    "title": "Bun venit pe pagina principală Nurva",
+    "description": "Aceasta este pagina principală a aplicației Nurva."
+  },
+  "about": {
+    "title": "Bun venit pe pagina Nurva Despre",
+    "description": "Aceasta este pagina despre aplicația Nurva."
+  }
+}
