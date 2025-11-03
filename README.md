@@ -1,4 +1,4 @@
-# Nuvra Assignment (short)
+# Nuvra Assignment
 
 This repo contains a small full-stack app: an Express + TypeScript backend (Prisma + SQLite) and a Next.js frontend.
 
