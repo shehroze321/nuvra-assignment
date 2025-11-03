@@ -10,5 +10,9 @@
   "about": {
     "title": "Bun venit pe pagina Nurva Despre",
     "description": "Aceasta este pagina despre aplicația Nurva."
+  },
+  "header": {
+    "home": "Acasă",
+    "about": "Despre"
   }
 }

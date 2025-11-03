@@ -4,11 +4,16 @@
     "description": "This is the landing page of Nurva application."
   },
   "home": {
+    "home": "Home",
     "title": "Welcome to Nurva home page",
     "description": "This is the home page of Nurva application."
   },
   "about": {
     "title": "Welcome to Nurva about page",
     "description": "This is the about page of Nurva application."
+  },
+  "header": {
+    "home": "Home",
+    "about": "About"
   }
 }

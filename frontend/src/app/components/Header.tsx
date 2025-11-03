@@ -1,18 +1,20 @@
 "use client";
 import Link from "next/link";
 import { useLanguage } from "./LanguageProvider";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function Header() {
+  const { t } = useTranslation();
   const { lang, setLang } = useLanguage();
 
   return (
     <header className="flex justify-between items-center p-4 bg-white shadow-md">
       <nav className="flex gap-4">
         <Link href="/home" className="text-blue-600 hover:underline">
-          Home
+          {t.header.home}
         </Link>
         <Link href="/about" className="text-blue-600 hover:underline">
-          About
+          {t.header.about}
         </Link>
       </nav>
 
